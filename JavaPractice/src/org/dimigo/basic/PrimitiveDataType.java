@@ -5,11 +5,11 @@ package org.dimigo.basic;
  * org.dimigo.basic
  *   |_ PrimitiveDataType
  * 
- * 1. °³¿ä : ¾ÆÀÌÀ¯ ÇÁ·ÎÇÊ Ãâ·ÂÇÏ±â
- * 2. ÀÛ¼ºÀÏ : 2017. 3. 9.
+ * 1. ê°œìš” : ì•„ì´ìœ  í”„ë¡œí•„ ì¶œë ¥í•˜ê¸°
+ * 2. ì‘ì„±ì¼ : 2017. 3. 9.
  * </pre>
  * 
- * @author ½ÉÁ¾¼®
+ * @author ì–‘ì •ëª¨
  * @version : 1.0
  */
 public class PrimitiveDataType {
@@ -19,18 +19,18 @@ public class PrimitiveDataType {
 	 */
 	public static void main(String[] args) {
 		int age = 25;
-		String name = "¾ÆÀÌÀ¯";
+		String name = "ì•„ì´ìœ ";
 		boolean isMale = true;
 		double height = 161.8;
 		float weight = 44.3f;
 		char bloodtype = 'A';
-		System.out.println("<< ¾ÆÀÌÀ¯ ÇÁ·ÎÇÊ >>");
-		System.out.println("ÀÌ¸§ : " +name);
-		System.out.println(isMale ? "¼ºº° : ¿©ÀÚ" : "¼ºº° : ³²ÀÚ");
-		System.out.println("³ªÀÌ : " +age +"¼¼");
-		System.out.println("Å° : "+height +"cm");
-		System.out.println("¸ö¹«°Ô : " +weight +"kg");
-		System.out.println("Ç÷¾×Çü : "+bloodtype + "Çü");
+		System.out.println("<< ì•„ì´ìœ  í”„ë¡œí•„ >>");
+		System.out.println("ì´ë¦„ : " +name);
+		System.out.println(isMale ? "ì„±ë³„ : ì—¬ì" : "ì„±ë³„ : ë‚¨ì");
+		System.out.println("ë‚˜ì´ : " +age +"ì„¸");
+		System.out.println("í‚¤ : "+height +"cm");
+		System.out.println("ëª¸ë¬´ê²Œ : " +weight +"kg");
+		System.out.println("í˜ˆì•¡í˜• : "+bloodtype + "í˜•");
 
 	}
 
