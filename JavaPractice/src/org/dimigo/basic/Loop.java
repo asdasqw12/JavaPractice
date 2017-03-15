@@ -30,7 +30,7 @@ public class Loop {
 				break;
 			case 9:
 				sc.close();
-				return
+				return;
 			}
 		}
 	}
