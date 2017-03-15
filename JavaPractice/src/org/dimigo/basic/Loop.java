@@ -29,6 +29,7 @@ public class Loop {
 				System.out.println((characters[r.nextInt(4)])+"(으)로 설정되었습니다.");
 				break;
 			case 9:
+				sc.close();
 				return;
 			}
 		}
