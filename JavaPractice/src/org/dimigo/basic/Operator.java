@@ -5,22 +5,22 @@ package org.dimigo.basic;
  * org.dimigo.basic
  *   |_ HelloWorld
  *
- * 1. °³¿ä :
- * 2. ÀÛ¼ºÀÏ : 3/6
+ * 1. ê°œìš” :
+ * 2. ì‘ì„±ì¼ : 3/6
  * </pre>
  *
- * @author      : ¾È¹®¼ö
+ * @author      : ì–‘ì •ëª¨
  * @version     : 1.0
  */
 public class Operator {
 	public static void main(String[] args){
 		long a=3L, c=1500L;
 		long b=1700000L;
-		System.out.println("<<µğ¹Ìº£³× ¿¬°£ ÀÎ°Çºñ>>");
-		System.out.printf("¿ù Æò±Õ ±Ş¿© : " + String.format("%,d",b) + "¿ø\n" );
-		System.out.printf("Á¡Æ÷ ³» Á÷¿ø¼ö : %d¸í\n",a);
-		System.out.printf("Á¡Æ÷ ¼ö : " + String.format("%,d", c) + "°³\n\n");
-		System.out.printf("¿¬°£ ÀÎ°Çºñ : " + String.format("%,d", b * a * c * 12));
+		System.out.println("<<ë””ë¯¸ë² ë„¤ ì—°ê°„ ì¸ê±´ë¹„>>");
+		System.out.printf("ì›” í‰ê·  ê¸‰ì—¬ : " + String.format("%,d",b) + "ì›\n" );
+		System.out.printf("ì í¬ ë‚´ ì§ì›ìˆ˜ : %dëª…\n",a);
+		System.out.printf("ì í¬ ìˆ˜ : " + String.format("%,d", c) + "ê°œ\n\n");
+		System.out.printf("ì—°ê°„ ì¸ê±´ë¹„ : " + String.format("%,d", b * a * c * 12));
 	}
 
 }
