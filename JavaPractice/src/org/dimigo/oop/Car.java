@@ -41,6 +41,6 @@ public class Car {
 				"\n모델명 : "+model+
 				"\n색상 : "+color+
 				"\n최대속도 : "+maxSpeed+"km"+
-				"\n가격 : "+String.format("%,d",price)+"원\n"
+				"\n가격 : "+String.format("%,d",price)+"원\n";
 	}
 }

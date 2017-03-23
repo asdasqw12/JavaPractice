@@ -23,7 +23,7 @@ public class CarTest {
 		c[2].setMaxSpeed(200);
 		c[2].setPrice(38000000);
 		for(Car k : c){
-			System.out.println(k)
+			System.out.println(k);
 		}
 	}
 }
