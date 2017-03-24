@@ -20,7 +20,7 @@ public class Car2 {
 		return company;
 	}
 	public void setCompany(String company) {
-		this.company = company
+		this.company = company;
 	}
 	public String getModel() {
 		return model;
