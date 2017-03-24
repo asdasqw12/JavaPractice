@@ -47,7 +47,7 @@ public class Car2 {
 		this.price = price;
 	}
 	public String toString(){
-		return "제조사명 : "+company+
+		return    "제조사명 : "+company+
 				"\n모델명 : "+model+
 				"\n색상 : "+color+
 				"\n최대속도 : "+maxSpeed+"km"+
