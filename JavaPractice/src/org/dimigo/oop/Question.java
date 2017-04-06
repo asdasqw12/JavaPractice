@@ -14,7 +14,6 @@ public class Question {
 		for(int i=0;i<ans.length;i++){
 			System.out.println(que[i]+" "+ans[i]);
 		}
-		
 		sc.close();
 	}
 }
