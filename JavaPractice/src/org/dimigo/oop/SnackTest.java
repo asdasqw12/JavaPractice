@@ -10,5 +10,6 @@ public class SnackTest {
 		for(Snack snack: snacks){
 			System.out.println(snack);
 		}
+		System.out.println("총 구매 금액 : " + String.format("%,d", Snack.calcPrice())+"원");
 	}
 }

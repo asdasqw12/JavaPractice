@@ -5,6 +5,7 @@ public class Snack {
 	private String company;
 	private int price;
 	private int number;
+	private static int allPrice;
 	public String getName() {
 		return name;
 	}
@@ -34,13 +35,15 @@ public class Snack {
 		this.company = company;
 		this.price = price;
 		this.number = number;
-	}
-	public Snack() {
+		Snack.allPrice+=price*number;
 	}
 	public String toString(){
 		return    "이   름 : "+name+
 				"\n제조사 : "+company+
 				"\n가   격 : "+String.format("%,d", price)+"원"+
 				"\n개   수 : "+number+"개\n";
+	}
+	public static int calcPrice(){
+		return Snack.allPrice;
 	}
 }
