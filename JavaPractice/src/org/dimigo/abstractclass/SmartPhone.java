@@ -3,18 +3,6 @@
  */
 package org.dimigo.abstractclass;
 
-/**
- * <pre>
- * org.dimigo.inheritance
- *   |_ SmartPhone
- * 
- * 1. 개요 :
- * 2. 작성일 : 2017. 5. 15.
- * </pre>
- * 
- * @author BSH
- * @version : 1.0
- */
 public abstract class SmartPhone {
 	private String  model;
 	private String company;
